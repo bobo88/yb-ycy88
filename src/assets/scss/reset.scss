@@ -1,0 +1,45 @@
+.ant-layout-header {
+    background: #2095cd;
+}
+.ant-layout-footer {
+    padding: 0;
+}
+.main-wrap {
+    .ant-divider-horizontal.ant-divider-with-text {
+        border-top-color: #2095cd;
+    }
+    .ant-divider-inner-text {
+        font-weight: bold;
+    }
+}
+
+.ant-card-meta-description {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width:600px) {
+    .ant-layout-header {
+        padding: 0 10px;
+    }
+    .logo-desc {
+        display: none;
+    }
+    .top-box .link {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .card-item {
+        width: 160px !important;
+        .ant-card {
+            width: 100% !important;
+        }
+        .case-item-img {
+            // width: 160 !important;
+            height: 160px !important;
+        }
+    }
+}

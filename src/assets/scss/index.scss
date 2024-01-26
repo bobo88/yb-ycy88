@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+@import "common"; /* 通用ui */
+@import "app"; /* 应用结构 */
+@import "page"; /* 页面结构 */
+@import "reset"; /* 第三方插件 */
+
+
+.desc {
+    color: #000;
+    font-size: 16px;
+}
+.red {
+    color: #f00;
+}
+.green {
+    color: green;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
