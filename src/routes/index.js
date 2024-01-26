@@ -2,7 +2,7 @@ import React, { lazy } from "react";
 
 // 懒加载路由
 const Home = lazy(() => import('@/pages/Home'));
-const ProjectCases = lazy(() => import('@/pages/project-cases/ProjectCases'));
+const JsRun = lazy(() => import('@/pages/js-run/JsRun'));
 // const ReactPage = lazy(() => import('@/pages/react/React'));
 const OtherPage = lazy(() => import('@/pages/other/Other'));
 const About = lazy(() => import('@/pages/about/About'));
@@ -19,9 +19,9 @@ const routes = [
     element: <Home />
   },
   {
-    key: 'project-cases',
-    path: '/project-cases',
-    element: <ProjectCases />
+    key: 'js-run',
+    path: '/js-run',
+    element: <JsRun />
   },
   // {
   //   key: 'react',

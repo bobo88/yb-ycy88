@@ -16,26 +16,26 @@ const Top = () => {
           </Col>
           <Col span={18}>
             {/* target="_blank" rel="noopener noreferrer" */}
-            <a className="link" href="//fe.ycy88.com">
+            <a className="link" href="//fe.ycy88.com" target="_blank">
               博客文档
             </a>
             {/* <NavLink to='home' className={(navData) => (navData.isActive ? 'active link' : 'link')}>Docs</NavLink> */}
             <NavLink
-              to="project-cases"
+              to="js-run"
               className={(navData) =>
                 navData.isActive ? 'active link' : 'link'
               }>
-              项目展示
+              JS网页运行模拟器
             </NavLink>
             {/* <NavLink to='react' className={(navData) => (navData.isActive ? 'active link' : 'link')}>React</NavLink>
             <NavLink to='other' className={(navData) => (navData.isActive ? 'active link' : 'link')}>Other</NavLink> */}
-            <NavLink
+            {/* <NavLink
               to="about-me"
               className={(navData) =>
                 navData.isActive ? 'active link' : 'link'
               }>
               关于我
-            </NavLink>
+            </NavLink> */}
           </Col>
         </Row>
       </div>
