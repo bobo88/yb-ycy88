@@ -33,15 +33,20 @@ const routes = [
     path: '/other',
     element: <OtherPage />
   },
+  // {
+  //   key: 'about',
+  //   path: '/about-me',
+  //   element: <About />
+  // },
   {
-    key: 'about',
-    path: '/about-me',
+    key: 'protected',
+    path: '/protected',
     element: <About />
   },
   {
     key: '404',
     path: '/*',
-    element: <About />
+    element: <Home />
   },
 ];
 
