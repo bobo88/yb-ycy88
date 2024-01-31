@@ -29,13 +29,13 @@ const Top = () => {
             </NavLink>
             {/* <NavLink to='react' className={(navData) => (navData.isActive ? 'active link' : 'link')}>React</NavLink>
             <NavLink to='other' className={(navData) => (navData.isActive ? 'active link' : 'link')}>Other</NavLink> */}
-            {/* <NavLink
-              to="about-me"
+            <NavLink
+              to="protected"
               className={(navData) =>
                 navData.isActive ? 'active link' : 'link'
               }>
-              关于我
-            </NavLink> */}
+              查看加密页面（username / bob）
+            </NavLink>
           </Col>
         </Row>
       </div>
